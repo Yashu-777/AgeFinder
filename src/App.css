@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(135deg,#032783e0, #03f4b4);
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  min-width: 700px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 218, 185, 0.678);
+}
+
+h1{
+  background-color: orange;
+}
+.date-input{
+  height: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: blue;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
